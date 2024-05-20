@@ -11,10 +11,19 @@ The purpose of this code is to reformat the data created when landmarking images
 #### Required data/software
 * Text editor such as Notepad, Python IDLE, or VS Code.
 * Interface to run the code such as Python Shell or command line.
+* File with annotated landmark data from tpsDig2 (Rohlf 2004).
 * File with a list of Unique Identifier Codes (UICs) that corresponds to each specimen and its data.
   * E.g., a UIC may contain species, sex, and specimen ID# and appear as 'FAWM0054', where FAW = fall armyworm (species), M = male (sex), and 0054 = ID#54.
   * This file should be named "OFFICIAL-UICs-CleanedData.txt"; otherwise, the name in [Open OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py) should be modified.
-* File with annotated landmark data from tpsDig2 (Rohlf 2004).
+  * The UICs should be separated by a new line. See below for an example:
+
+```
+SBLsprM0042
+GCWsumF0043
+GLMsumF0044
+SBLfalM0045
+SBLsprM0046
+```
 
 #### Complete the following steps in order to run the code properly:
 1. Use tpsDig2 software to annotate landmarks on images.
