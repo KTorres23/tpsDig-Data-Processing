@@ -1,7 +1,7 @@
 # tpsDig-Data-Processing
 This repository contains the code used to process data exported from tpsDig for MorphJ input.
 ___
-### [Open OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py)
+### [OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py)
 The purpose of this code is to reformat the data created when landmarking images in tpsDig2 (Rohlf 2004) into the correct 'tps format' for MorphoJ (Klingenberg 2011) processing. The simple program can be ran in the command line, Python Shell, or similar interface.
 
 > [!IMPORTANT]
@@ -14,7 +14,7 @@ The purpose of this code is to reformat the data created when landmarking images
 * File with annotated landmark data from tpsDig2 (Rohlf 2004).
 * File with a list of Unique Identifier Codes (UICs) that corresponds to each specimen and its data.
   * E.g., a UIC may contain species, sex, and specimen ID# and appear as 'FAWM0054', where FAW = fall armyworm (species), M = male (sex), and 0054 = ID#54.
-  * This file should be named "OFFICIAL-UICs-CleanedData.txt"; otherwise, the name in [Open OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py) should be modified.
+  * This file should be named "OFFICIAL-UICs-CleanedData.txt"; otherwise, the name in [OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py) should be modified.
   * The UICs should be separated by a new line. See below for an example:
 
 ```
