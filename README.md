@@ -9,7 +9,7 @@ The purpose of this code is to reformat the data created when landmarking images
 
 Complete the following steps in order to run the code properly:
 1. Use tpsDig2 software to annotate landmarks on images.
-2. Download and open [Open OFFICIAL tpsDIG Data Cleanup.py](docs/Open-OFFICIAL-tpsDIG-Data-Cleanup.py)
+2. Download and open [Open OFFICIAL tpsDIG Data Cleanup.py](Open-OFFICIAL-tpsDIG-Data-Cleanup.py)
 3. Follow the "TO DO" instructions within the file to use on your computer (e.g., rewriting file directories/names)
 4. Run the program and follow on-screen instructions.
 
