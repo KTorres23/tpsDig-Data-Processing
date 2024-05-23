@@ -5,7 +5,7 @@ ___
 The purpose of this code is to reformat the data created when landmarking images in tpsDig2 (Rohlf 2004) into the correct 'tps format' for MorphoJ (Klingenberg 2011) processing. The simple program can be ran in the command line, Python Shell, or similar interface.
 
 > [!IMPORTANT]
-> Based on how your image files are named, this code to extract the specimen number may not work for you. The program gets the name of the image file by separating the string based on the image naming style, which was created by the ZEISS Smartzoom5 program and imaging system. In this case, all the images had underscores in the file name to distinguish certain data (i.e., magnification and specimen number). The program may need further tweaks depending on the initial image file names used in your project.
+> Based on how your image files are named, this code to extract the specimen number may not work for you. The program gets the specimen's ID number from the image file name. It separates the image file name string based on the image naming style, which was created by the ZEISS Smartzoom5 program and imaging system. In this case, all the images had underscores in the file name to distinguish certain data (i.e., magnification and specimen number). The program may need further tweaks depending on the initial image file names used in your project.
 
 
 #### Required data/software
