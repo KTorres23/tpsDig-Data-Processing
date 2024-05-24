@@ -27,7 +27,7 @@ SBLsprM0046
 
 #### Complete the following steps in order to run the code properly:
 1. Use tpsDig2 software to annotate landmarks on images.
-2. Download and open [Open OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py)
+2. Download and open [OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py)
 3. Follow the "TO DO" instructions within the file to use on your computer (e.g., rewriting file directories/names)
 4. Run the program and follow on-screen instructions.
 
