@@ -1,5 +1,7 @@
 # tpsDig-Data-Processing
 This repository contains the code used to process data exported from tpsDig for MorphJ input.
+
+[![DOI](https://zenodo.org/badge/803298365.svg)](https://zenodo.org/doi/10.5281/zenodo.12607899)
 ___
 ### [OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py)
 The purpose of this code is to reformat the data created when landmarking images in tpsDig2 (Rohlf 2004) into the correct 'tps format' for MorphoJ (Klingenberg 2011) processing. The simple program can be ran in the command line, Python Shell, or similar interface.
