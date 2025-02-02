@@ -2,12 +2,16 @@
 This repository contains the code used to process data exported from tpsDig for MorphJ input.
 
 [![DOI](https://zenodo.org/badge/803298365.svg)](https://zenodo.org/doi/10.5281/zenodo.12607899)
+
+**The code was developed for and used in the following publication:**
+* Smith-Pardo AH, Torres KM and Paula-Moraes SV (2025) Validation of wing geometric morphometrics in *Chrysodeixis* spp. (Lepidoptera: Noctuidae) to support pest identification in invasive species survey programs. *Front. Insect Sci.* 5:1542467. doi: 10.3389/finsc.2025.1542467
+
 ___
 ### [OFFICIAL tpsDIG Data Cleanup.py](OFFICIAL-tpsDIG-Data-Cleanup.py)
 The purpose of this code is to reformat the data created when landmarking images in tpsDig2 (Rohlf 2004) into the correct 'tps format' for MorphoJ (Klingenberg 2011) processing. The simple program can be ran in the command line, Python Shell, or similar interface.
 
 > [!IMPORTANT]
-> Based on how your image files are named, this code to extract the specimen number may not work for you. The program gets the specimen's ID number from the image file name. It separates the image file name string based on the image naming style, which was created by the ZEISS Smartzoom5 program and imaging system. In this case, all the images had underscores in the file name to distinguish certain data (i.e., magnification and specimen number). The program may need further tweaks depending on the initial image file names used in your project.
+> Based on how your image files are named, this code to extract the specimen number may not work for you. The program gets the specimen's ID number from the image file name. It separates the image file name string based on the image naming style, which was created by the ZEISS Smartzoom5 program and imaging system. In this case, all the images had underscores in the file name to distinguish certain data (i.e., magnification and specimen number). The program may need further modifications depending on the initial image file names used in your project.
 
 
 #### Required data/software
